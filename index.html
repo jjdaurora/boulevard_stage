@@ -32,12 +32,12 @@
 
     <!-- NAVBAR
     ================================================= -->
-    <nav class="navbar navbar-expand-xl navbar-dark  navbar-togglable  fixed-top">
+    <nav class="navbar navbar-expand-xl navbar-dark  navbar-togglable  fixed-top" id="nav-index">
       <div class="container">
 
         <!-- Brand -->
         <a class="navbar-brand" href="index.html">
-          <img src="assets/img/branding_logo_boulevard_wealth_partners.png" width="250" height="100"/>
+          <img src="assets/img/branding_logo_boulevard_wealth_partners.svg" width="250" height="100" id="#logo--dark"/>
         </a>
   
         <!-- Toggler -->
@@ -87,92 +87,22 @@
               <a class="nav-link" href="#" id="navbarWelcome" role="button" aria-haspopup="true" aria-expanded="false">
                 Home
               </a>
-              <!-- <div class="dropdown-menu" aria-labelledby="navbarWelcome">
-                <a class="dropdown-item  active " href="index.html">
-                  Header: Image
-                </a>
-                <a class="dropdown-item " href="index-header-carousel.html">
-                  Header: Carousel
-                </a>
-                <a class="dropdown-item " href="index-header-parallax.html">
-                  Header: Parallax
-                </a>
-                <a class="dropdown-item " href="index-header-video.html">
-                  Header: Video
-                </a>
-              </div> -->
             </li>
             <li class="nav-item">
               <a class="nav-link" href="people.html" id="navbarLandings" role="button" aria-haspopup="true" aria-expanded="false">
                 Our People
               </a>
-              <!-- <div class="dropdown-menu" aria-labelledby="navbarLandings">
-                <a class="dropdown-item " href="app.html">
-                  App
-                </a>
-                <a class="dropdown-item " href="fullpage.html">
-                  Fullpage
-                </a>
-                <a class="dropdown-item " href="product.html">
-                  Product
-                </a>
-                <a class="dropdown-item " href="real-estate.html">
-                  Real estate
-                </a>
-                <a class="dropdown-item " href="service.html">
-                  Service
-                </a>
-              </div> -->
             </li>
             <li class="nav-item">
               <a class="nav-link" href="services.html" id="navbarPages" role="button" aria-haspopup="true" aria-expanded="false">
                 Services
               </a>
-              <!-- <div class="dropdown-menu" aria-labelledby="navbarPages">
-                <a class="dropdown-item " href="about.html">
-                  About
-                </a>
-                <a class="dropdown-item " href="checkout.html">
-                  Checkout
-                </a>
-                <a class="dropdown-item " href="contact.html">
-                  Contact
-                </a>
-                <a class="dropdown-item " href="faq.html">
-                  FAQ
-                </a>
-                <a class="dropdown-item " href="pricing.html">
-                  Pricing
-                </a>
-                <a class="dropdown-item " href="sign-in.html">
-                  Sign In
-                </a>
-                <a class="dropdown-item " href="sign-up.html">
-                  Sign Up
-                </a>
-                <a class="dropdown-item " href="404.html">
-                  404
-                </a>
-              </div> -->
             </li>
             <li class="nav-item">
               <a class="nav-link" href="clients.html" id="navbarComponents" role="button" aria-haspopup="true" aria-expanded="false">
                 Clients
               </a>
-              <!-- <div class="dropdown-menu" aria-labelledby="navbarComponents">
-                <a class="dropdown-item " href="components-theme.html">
-                  Theme
-                </a>
-                <a class="dropdown-item " href="components-bootstrap.html">
-                  Bootstrap
-                </a>
-              </div> -->
             </li>
-            <!-- <li class="nav-item ">
-              <a href="documentation.html" class="nav-link">
-                Contact
-              </a>
-            </li> -->
             <li class="nav-item-divider">
               <span class="nav-link">
                 <span></span>
@@ -180,7 +110,7 @@
             </li>
             <li class="nav-item">
               <a href="#contact" class="nav-link">
-                Contact
+                Contact Us
               </a>
             </li>
           </ul>
@@ -193,44 +123,131 @@
     <!-- HERO
     ================================================== -->
     <section class="section section-top section-full">
-
-      <!-- Cover -->
-      <div class="bg-cover" style="background-image: url(assets/img/42.jpg);"></div>
-
+    
+      <!-- Slider -->
+      <div class="bg-slider">
+        <div class="slider slider-no-controls slider-no-draggable slider-fade" data-slider-binded=".slider">
+          <div class="slider-item">
+    
+            <!-- Cover -->
+            <div class="bg-cover" style="background-image: url(assets/img/54.jpg)"></div>
+    
+          </div>
+          <div class="slider-item">
+    
+            <!-- Cover -->
+            <div class="bg-cover" style="background-image: url(assets/img/66.jpg)"></div>
+    
+          </div>
+          <div class="slider-item">
+    
+            <!-- Cover -->
+            <div class="bg-cover" style="background-image: url(assets/img/63.jpg)"></div>
+    
+          </div>
+        </div>
+      </div>
+    
       <!-- Overlay -->
       <div class="bg-overlay"></div>
-
+    
       <!-- Triangles -->
       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
-
+    
       <!-- Content -->
       <div class="container">
         <div class="row justify-content-center align-items-center">
-          <div class="col-md-8 col-lg-7">
-
-            <!-- Preheading -->
-            <!-- Heading -->
-            <h1 class="text-white text-center mb-4" data-toggle="animation" data-animation="fadeUp" data-animation-order="1" data-animation-trigger="load">
-              Boulevard Wealth Partners
-            </h1>
-
-            <!-- Subheading -->
-            <!-- <p class="lead text-white text-muted text-center mb-5" data-toggle="animation" data-animation="fadeUp" data-animation-order="2" data-animation-trigger="load">
-              Incline is set of landing and support pages aimed at helping companies promote new products and business launches.
-            </p> -->
-
-            <!-- Button -->
-            <p class="text-center mb-0" data-toggle="animation" data-animation="fadeUp" data-animation-order="3" data-animation-trigger="load">
-              <a href="#about" class="btn btn-outline-primary text-white">
-                Learn More
-              </a>
-            </p>
-
+          <div class="col-12 col-md-8 col-lg-7 order-md-2">
+    
+            <!-- Slider -->
+            <div id="hero-slider" class="slider slider-no-controls slider-no-draggable slider-fade mb-5 mb-md-0" data-slider-binded=".slider">
+              <div class="slider-item">
+    
+                <!-- Heading -->
+                <h1 class="text-white text-center mb-4">
+                   Comprehensive wealth management
+                </h1>
+    
+                <!-- Subheading -->
+                <p class="lead text-white text-muted text-center mb-5">
+                    We craft customized wealth management solutions as your needs change and grow.
+                </p>
+    
+                <!-- Button -->
+                <p class="text-center mb-0">
+                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                    Learn More
+                  </a>
+                </p>
+    
+              </div>
+              <div class="slider-item">
+                <!-- Heading -->
+                <h1 class="text-white text-center mb-4">
+                  Personal, fiduciary relationship with our advisors
+                </h1>
+    
+                <!-- Subheading -->
+                <p class="lead text-white text-muted text-center mb-5">
+                  Access to a network of top professional partners.
+                </p>
+    
+                <!-- Button -->
+                <p class="text-center mb-0">
+                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                    Learn more
+                  </a>
+                </p>
+    
+              </div>
+              <div class="slider-item">
+                <!-- Heading -->
+                <h1 class="text-white text-center mb-4">
+                  Technology driven financial analysis
+                </h1>
+    
+                <!-- Subheading -->
+                <p class="lead text-white text-muted text-center mb-5">
+                  We use premier technology to build plans that work for you.
+                </p>
+    
+                <!-- Button -->
+                <p class="text-center mb-0">
+                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                    Learn more
+                  </a>
+                </p>
+    
+              </div>
+            </div>
+    
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-
+          <div class="col-6 col-md-2 order-md-1">
+    
+            <!-- Controls -->
+            <div class="text-left">
+              <a href="#hero-slider" class="slider-control" data-slide="previous">
+                <span class="icon-arrow-left icon-2x"></span>
+              </a>
+            </div>
+    
+          </div>
+          <div class="col-6 col-md-2 order-md-3">
+    
+            <!-- Controls -->
+            <div class="text-right">
+              <a href="#hero-slider" class="slider-control" data-slide="next">
+                <span class="icon-arrow-right icon-2x"></span>
+              </a>
+            </div>
+    
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    
     </section>
 
     <!-- SECTIONS
@@ -246,28 +263,17 @@
 
             <!-- Heading -->
             <h2 class="text-center mb-4">
-              Boulevard Wealth Partners...
+              Boulevard Wealth Partners
             </h2>
 
             <!-- Subheading -->
-            <p class="text-muted text-left mb-3">
-              is a Nashville-based asset management firm that designs tailored financial strategies for our
-              clients. We started BWP because we saw too many cases of financial firms looking out for themselves and not the client.
-            </p>
-             
-            <p class="text-muted text-left mb-3">
-              Boulevard Wealth Partners is a Nashville-based asset management firm that designs tailored financial strategies for
-              our
-              clients. We started BWP because we saw too many cases of financial firms looking out for themselves and not the
+
+            <p class="text-muted text-left mb-5">
+              is a Nashville-based asset management firm that designs tailored financial strategies for
+              our clients. We started BWP because we saw too many cases of financial firms looking out for themselves and not the
               client.
             </p>
 
-            <p class="text-muted text-left mb-5">
-              Boulevard Wealth Partners is a Nashville-based asset management firm that designs tailored financial strategies for
-              our
-              clients. We started BWP because we saw too many cases of financial firms looking out for themselves and not the
-              client.
-            </p>
         </div>
         </div> <!-- / .row -->
         <div class="row">
@@ -278,7 +284,7 @@
           
               <!-- Image -->
               <div class="card-img-top">
-                <img src="assets/img/45.png" alt="App landing" class="img-fluid">
+                <img src="assets/img/15.jpg" alt="App landing" class="img-fluid">
               </div>
 
               <!-- Body -->
@@ -301,7 +307,7 @@
           
               <!-- Image -->
               <div class="card-img-top">
-                <img src="assets/img/57.png" alt="Fullpage scrolling" class="img-fluid">
+                <img src="assets/img/54.jpg" alt="Fullpage scrolling" class="img-fluid">
               </div>
 
               <!-- Body -->
@@ -325,7 +331,7 @@
           
               <!-- Image -->
               <div class="card-img-top">
-                <img src="assets/img/44.png" alt="App landing" class="img-fluid">
+                <img src="assets/img/59.jpg" alt="App landing" class="img-fluid">
               </div>
 
               <!-- Body -->
@@ -341,237 +347,9 @@
             </a> <!-- / .card -->
 
           </div>
-          <!-- <div class="col-md-4"> -->
-        
-            <!-- Item -->
-            <!-- <a href="real-estate.html" class="card border-0 mb-3 mb-md-0"> -->
-          
-              <!-- Image -->
-              <!-- <div class="card-img-top">
-                <img src="assets/img/46.png" alt="App landing" class="img-fluid">
-              </div> -->
 
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-            
-                <!-- Title -->
-                <!-- <h4 class="card-title">
-                  Real estate landing
-                </h4> -->
-
-                <!-- Body -->
-                <!-- <p class="card-text text-muted">
-                  Use this page to promote your real estate.
-                </p> -->
-
-              <!-- </div>
-
-            </a> / .card -->
-
-          <!-- </div> -->
-          <!-- <div class="col-md-4"> -->
-        
-            <!-- Item -->
-            <!-- <a href="service.html" class="card border-0 mb-3 mb-md-0"> -->
-          
-              <!-- Image -->
-              <!-- <div class="card-img-top">
-                <img src="assets/img/43.png" alt="App landing" class="img-fluid">
-              </div> -->
-
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-            
-                <!-- Title -->
-                <!-- <h4 class="card-title">
-                  Service landing
-                </h4> -->
-
-                <!-- Body -->
-                <!-- <p class="card-text text-muted">
-                  Use this page to promote your business or a service.
-                </p>
-
-              </div>
-
-            </a> / .card -->
-
-          <!-- </div> -->
-          <!-- <div class="col-md-4"> -->
-        
-            <!-- Item -->
-            <!-- <a href="#" class="card border-0 disabled"> -->
-          
-              <!-- Image -->
-              <!-- <div class="card-img-top card-img-waiting">
-                <span class="icon-clock icon-2x"></span>
-              </div> -->
-
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-            
-                <!-- Title -->
-                <!-- <h4 class="card-title">
-                  Coming soon
-                </h4> -->
-
-                <!-- Text -->
-                <!-- <p class="card-text text-muted">
-                  Feel free to contact us with your ideas about new pages and components.
-                </p> -->
-
-              <!-- </div> -->
-<!-- 
-            </a> / .card -->
-
-          <!-- </div> -->
         </div> <!-- / .row -->
-      </div> <!-- / .container -->
 
-    </section>
-
-    <!-- HEADERS
-    ================================================== -->
-    <!-- <section class="section bg-light"> -->
-
-      <!-- Line -->
-      <!-- <div class="line line-top"></div> -->
-
-      <!-- Triangles -->
-      <!-- <div class="bg-triangle bg-triangle-dark bg-triangle-top bg-triangle-left"></div>
-      <div class="bg-triangle bg-triangle-dark bg-triangle-bottom bg-triangle-right"></div> -->
-
-      <!-- Content -->
-      <!-- <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6"> -->
-
-            <!-- Heading -->
-            <!-- <h2 class="text-center mb-4"> -->
-              <!-- Header variants
-            </h2> -->
-
-            <!-- Subheading -->
-            <!-- <p class="text-muted text-center mb-5">
-              Polish your landing page with one of the header options below to impress your visitors at first glance.
-            </p> -->
-
-          <!-- </div>
-        </div> / .row -->
-        <!-- <div class="row">
-          <div class="col-md-4">
-         -->
-            <!-- Item -->
-            <!-- <a href="index-header-carousel.html" class="card border-0 mb-3 mb-md-0"> -->
-          
-              <!-- Image -->
-              <!-- <div class="card-img-top">
-                <img src="assets/img/51.png" alt="Carousel header" class="img-fluid">
-              </div> -->
-
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-            
-                <!-- Title -->
-                <!-- <h4 class="card-title">
-                  Carousel header
-                </h4> -->
-
-                <!-- Body -->
-                <!-- <p class="card-text text-muted">
-                  Switch between multiple slides with full cover background images.
-                </p>
-
-              </div>
- -->
-            <!-- </a> / .card -->
-<!-- 
-          </div>
-          <div class="col-md-4"> -->
-        
-            <!-- Item -->
-            <!-- <a href="index-header-parallax.html" class="card border-0 mb-3"> -->
-          
-              <!-- Image -->
-              <!-- <div class="card-img-top">
-                <img src="assets/img/52.png" alt="Parallax header" class="img-fluid">
-              </div> -->
-
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-            
-                <!-- Title -->
-                <!-- <h4 class="card-title">
-                  Parallax header
-                </h4>
-
-                <!-- Body -->
-                <!-- <p class="card-text text-muted">
-                  Good old parallax effect to add even more visual interest to your page.
-                </p> -->
-
-              <!-- </div> -->
-
-            <!-- </a> / .card -->
-
-          <!-- </div> -->
-          <!-- <div class="col-md-4"> -->
-        
-            <!-- Item -->
-            <!-- <a href="index-header-video.html" class="card border-0 mb-3 mb-md-0"> -->
-          
-              <!-- Image -->
-              <!-- <div class="card-img-top">
-                <img src="assets/img/53.png" alt="Video header" class="img-fluid">
-              </div> -->
-
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-            
-                <!-- Title -->
-                <!-- <h4 class="card-title">
-                  Video header
-                </h4> -->
-
-                <!-- Body -->
-                <!-- <p class="card-text text-muted">
-                  Local video background you can optionally loop if needed.
-                </p>
-
-              </div>
-
-            </a> / .card -->
-
-          <!-- </div>
-        </div> <!-- / .row -->
-      <!-- </div> / .container  -->
-
-    <!-- </section> -->
-
-    <!-- QUOTE
-    ================================================== -->
-    <section class="section">
-      <!-- Content -->
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-9">
-        
-            <!-- Quote -->
-            <div class="quote">
-              <blockquote class="quote-blockquote">
-                <p class="quote-blockquote-content">
-                  This theme is a Swiss Army knife of Bootstrap themes. Built with components in mind, it can be easily adjusted to create layouts of any complexity within a few minutes.
-                </p>
-                <footer class="quote-blockquote-footer">
-                  <span class="text-zigzag">
-                    Yuri Gamin, Moscow
-                  </span>
-                </footer>
-              </blockquote>
-            </div> <!-- / .quote -->
-        
-          </div>
-        </div> <!-- / .row -->
       </div> <!-- / .container -->
 
     </section>
@@ -592,14 +370,9 @@
           <div class="col-md-8 col-lg-6">
         
             <!-- Heading -->
-            <h2 class="text-white text-center mb-4">
+            <h2 class="text-white text-center mb-5">
               Our Principles
             </h2>
-
-            <!-- Subheading -->
-            <p class="text-white text-muted text-center mb-5">
-              Text about your firm's principles.
-            </p>
 
           </div>
         </div> <!-- / .row -->
@@ -621,7 +394,7 @@
 
               <!-- Content -->
               <p class="text-white text-muted mb-0">
-                Text about this principle.
+                Financial strategies that are made only for you.
               </p>
 
             </div>
@@ -644,7 +417,7 @@
 
               <!-- Content -->
               <p class="text-white text-muted mb-0">
-                 Text about this principle.
+                Technology driven financial analysis.
               </p>
 
             </div>
@@ -667,7 +440,7 @@
 
               <!-- Content -->
               <p class="text-white text-muted mb-0">
-                 Text about this principle.
+                 Experienced professionals keeping your assets safe.
               </p>
 
             </div>
@@ -678,325 +451,9 @@
 
     </section>
 
-    <!-- ABOUT
-    ================================================== -->
-    <!-- <section class="section"> -->
-
-      <!-- Content -->
-      <!-- <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 col-lg-5 offset-lg-1 order-md-2"> -->
-        
-            <!-- Image -->
-            <!-- <div class="img-effect img-effect-solid mb-5 mb-md-0">
-              <img src="assets/img/47.jpg" class="img-fluid" alt="...">
-            </div> -->
-
-          <!-- </div>
-          <div class="col-md-6 col-lg-4 offset-lg-1 order-md-1"> -->
-
-            <!-- Heading -->
-            <!-- <h2 class="mb-4">
-              Intuitive workflow
-            </h2> -->
-
-            <!-- Content -->
-            <!-- <ul class="list-iconed text-muted"> -->
-              <!-- <li>
-                Speed up your development process with Gulp and BrowserSync live browser reload
-              </li>
-              <li>
-                Easily adjust the look of any component with tons of additional SASS variables included
-              </li>
-              <li>
-                Easily make global changes with HTML file @@includes
-              </li>
-            </ul> -->
-
-            <!-- Button -->
-            <!-- <a href="documentation.html" class="btn btn-outline-primary">
-              Documentation
-            </a>
-         <!-- -->
-          <!-- </div>
-        </div> <!-- / .row -->
-      <!-- </div>  -->
-
-    <!-- </section> -->
-
-    <!-- SERVICES
-    ================================================== -->
-    <!-- <section class="section bg-light"> -->
-
-      <!-- Triangles -->
-      <!-- <div class="bg-triangle bg-triangle-dark bg-triangle-top bg-triangle-left"></div>
-      <div class="bg-triangle bg-triangle-dark bg-triangle-bottom bg-triangle-right"></div> -->
-  
-      <!-- Content -->
-      <!-- <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6"> -->
-        
-            <!-- Heading -->
-            <!-- <h2 class="text-center mb-4">
-              Ultimate solution
-            </h2> -->
-
-            <!-- Subheading -->
-            <!-- <p class="text-muted text-center mb-5">
-              Easily create a website of any complexity with dozens of pages and independent components for any purpose.
-            </p>
-
-          </div>
-        </div> -->
-        <!-- <div class="row no-gutters align-items-stretch">
-          <div class="col-md-4">
-         -->
-            <!-- Card -->
-            <!-- <div class="card card-tall card-stretch border-0 mb-3 md-md-0"> -->
-          
-              <!-- Image -->
-              <!-- <div class="bg-cover" style="background-image: url(assets/img/24.jpg)"></div> -->
-
-              <!-- Overlay -->
-              <!-- <div class="bg-overlay"></div> -->
-
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-
-                <!-- Icon -->
-                <!-- <div class="card-icon text-primary">
-                  <span class="icon icon-layers"></span>
-                </div> -->
-          
-                <!-- Title -->
-                <!-- <h4 class="card-title text-white">
-                  Support pages
-                </h4> -->
-
-                <!-- Text -->
-                <!-- <p class="card-text text-white text-muted mb-0">
-                  Finish off your website with multiple support pages included into the package.
-                </p>
-
-              </div> -->
-
-            <!-- </div> / .card -->
-
-          <!-- </div> -->
-          <!-- <div class="col-md-4"> -->
-        
-            <!-- Card -->
-            <!-- <div class="card card-tall card-stretch card-standout box-shadow border-0 mb-3 md-md-0"> -->
-          
-              <!-- Image -->
-              <!-- <div class="bg-cover" style="background-image: url(assets/img/22.jpg)"></div> -->
-
-              <!-- Overlay -->
-              <!-- <div class="bg-overlay"></div> -->
-
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-
-                <!-- Icon -->
-                <!-- <div class="card-icon text-primary">
-                  <span class="icon icon-tick"></span>
-                </div> -->
-          
-                <!-- Title -->
-                <!-- <h4 class="card-title text-white">
-                  Landing pages
-                </h4> -->
-
-                <!-- Text -->
-                <!-- <p class="card-text text-white text-muted mb-0">
-                  Beautiful marketing pages to help you promote your product or a service.
-                </p> -->
-
-              <!-- </div> -->
-
-            <!-- </div> / .card -->
-
-          <!-- </div> -->
-          <!-- <div class="col-md-4"> -->
-        
-            <!-- Card -->
-            <!-- <div class="card card-tall card-stretch border-0"> -->
-          
-              <!-- Image -->
-              <!-- <div class="bg-cover" style="background-image: url(assets/img/15.jpg)"></div> -->
-
-              <!-- Overlay -->
-              <!-- <div class="bg-overlay"></div> -->
-
-              <!-- Body -->
-              <!-- <div class="card-body"> -->
-
-                <!-- Icon -->
-                <!-- <div class="card-icon text-primary">
-                  <span class="icon icon-puzzle"></span>
-                </div> -->
-          
-                <!-- Title -->
-                <!-- <h4 class="card-title text-white">
-                  Custom components
-                </h4> -->
-
-                <!-- Text -->
-                <!-- <p class="card-text text-white text-muted mb-0">
-                  Combine dozens of components to create unique layouts.
-                </p>
-
-              </div> -->
-
-            <!-- </div> / .card -->
-
-          <!-- </div> -->
-        <!-- </div> / .row -->
-      <!-- </div> / .container -->
-
-    <!-- </section> -->
-
-
-    <!-- PRICING
-    ================================================== -->
-    <!-- <section class="section"> -->
-
-      <!-- Content -->
-      <!-- <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-lg-6"> -->
-
-            <!-- Heading -->
-            <!-- <h2 class="text-center mb-4">
-              Pricing options
-            </h2> -->
-
-            <!-- Subheading -->
-            <!-- <p class="text-muted text-center mb-5">
-              Secure payment via Stripe or Paypal. 100% money back guarantee.
-            </p>
-        
-          </div> -->
-        <!-- </div> / .row -->
-        <!-- <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-4"> -->
-        
-            <!-- Card -->
-            <!-- <div class="card card-lg bg-white card-active mb-3 mb-lg-0">
-           -->
-              <!-- Body -->
-              <!-- <div class="card-body text-center"> -->
-
-                <!-- Title -->
-                <!-- <h4 class="card-title">
-                  Standard license
-                </h4> -->
-
-                <!-- Price -->
-                <!-- <h3 class="card-title font-weight-normal text-primary">
-                  $49.00
-                </h3> -->
-
-                <!-- Text -->
-                <!-- <ul class="card-text list-iconed">
-                  <li>
-                    Use for a single product
-                  </li>
-                  <li>
-                    Non-paying users only
-                  </li>
-                  <li>
-                    Read&nbsp;<a href="https://themes.getbootstrap.com/licenses/#fullStandardLicense" target="_blank">full description</a>
-                  </li>
-                </ul> -->
-
-                <!-- Button -->
-                <!-- <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary">
-                  Purchase now
-                </a>
-
-              </div>
-           -->
-            <!-- </div> / .card -->
-
-          <!-- </div>
-          <div class="col-md-6 col-lg-4"> -->
-        
-            <!-- Card -->
-            <!-- <div class="card card-lg bg-white"> -->
-          
-              <!-- Body -->
-              <!-- <div class="card-body text-center"> -->
-
-                <!-- Title -->
-                <!-- <h4 class="card-title">
-                  Extended license
-                </h4> -->
-
-                <!-- Price -->
-                <!-- <h3 class="card-title font-weight-normal text-primary">
-                  $490.00
-                </h3> -->
-
-                <!-- Text -->
-                <!-- <ul class="card-text list-iconed">
-                  <li>
-                    Use for a single product
-                  </li>
-                  <li>
-                    Paying users allowed
-                  </li>
-                  <li>
-                    Read&nbsp;<a href="https://themes.getbootstrap.com/licenses/#fullExtendedLicense" target="_blank">full description</a>
-                  </li>
-                </ul> -->
-
-                <!-- Button -->
-                <!-- <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary">
-                  Purchase now
-                </a>
-
-              </div>
-          
-            </div> / .card -->
-
-          <!-- </div>
-        </div> <!-- / .row -->
-      <!-- </div> / .container --> 
-
-    <!-- </section> -->
-
     <!-- CTA
     ================================================== -->
     <section class="section bg-light">
-      
-      <!-- Content -->
-      <!-- <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-8">
-         -->
-            <!-- Heading -->
-            <!-- <h3 class="mb-4">
-              Download it from the Bootstrap marketplace
-            </h3> -->
-
-            <!-- Subheading -->
-            <!-- <p class="text-muted mb-4 mb-md-0">
-              Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators. Six month technical support by the theme author is provided.
-            </p>
-
-          </div>
-          <div class="col-md-auto">
-         -->
-              <!-- Button -->
-              <!-- <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary bg-white">
-                Purchase now
-              </a> -->
-
-          <!-- </div>
-        </div> <!-- / .row -->
-      <!-- </div> .container -->
       <!-- Content -->
         <div class="container">
           <div class="row">
@@ -1143,12 +600,6 @@
                 <span class="text-primary">in person</span>? Call us or visit us
               </h3>
       
-              <!-- Subheading -->
-              <p class="text-muted mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt nam voluptatum facilis, atque officiis possimus totam placeat
-                maiores at tempore nulla corporis rem aliquid iusto ab, distinctio, nostrum cumque asperiores!
-              </p>
-      
               <!-- Content -->
               <div class="row">
                 <div class="col-md-6 col-lg-5">
@@ -1233,7 +684,7 @@
             <!-- Brand -->
             <p>
               <a href="#" class="footer-brand text-white">
-                  <img src="assets/img/branding_logo_boulevard_wealth_partners.png" width="250" height="100" />
+                  <img src="assets/img/branding_logo_boulevard_wealth_partners.svg" width="250" height="100" />
               </a>
             </p>
         

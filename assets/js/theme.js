@@ -698,6 +698,15 @@ var Fullpage = (function() {
 		});
 	}
 
+	// const nav = document.querySelector('#nav-index')
+	// const topOfNav = nav.offsetTop;
+
+	// const fixNav = () => console.log(topOfNav, window.scrollY);
+
+	// window.addEventListener('scroll', fixNav)
+
+	}
+
 	// Events
 	// ======
 
