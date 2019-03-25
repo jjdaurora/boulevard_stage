@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="assets/libs/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/libs/incline-icons/style.min.css">
     <link rel="stylesheet" href="assets/libs/highlight.js/styles/codepen-embed.min.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" /> 
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBjLjOGdV17Z3abXoZg7DgUGqbXVXG4t0&callback=initMap" type="text/javascript"></script> -->
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="assets/css/theme.min.css">
@@ -89,8 +93,8 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="people.html" id="navbarLandings" role="button" aria-haspopup="true" aria-expanded="false">
-                Our People
+              <a class="nav-link" href="clients.html" id="navbarLandings" role="button" aria-haspopup="true" aria-expanded="false">
+                Clients
               </a>
             </li>
             <li class="nav-item">
@@ -99,8 +103,8 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="clients.html" id="navbarComponents" role="button" aria-haspopup="true" aria-expanded="false">
-                Clients
+              <a class="nav-link" href="people.html" id="navbarComponents" role="button" aria-haspopup="true" aria-expanded="false">
+                People
               </a>
             </li>
             <li class="nav-item-divider">
@@ -110,7 +114,7 @@
             </li>
             <li class="nav-item">
               <a href="#contact" class="nav-link">
-                Contact Us
+                Contact
               </a>
             </li>
           </ul>
@@ -127,19 +131,20 @@
       <!-- Slider -->
       <div class="bg-slider">
         <div class="slider slider-no-controls slider-no-draggable slider-fade" data-slider-binded=".slider">
-          <div class="slider-item">
+          <div class="slider-item slide-image">
     
-            <!-- Cover -->
-            <div class="bg-cover" style="background-image: url(assets/img/54.jpg)"></div>
+            <div class="bg-cover" style="background-image: url(assets/img/54.jpg)">
+
+            </div>
     
           </div>
-          <div class="slider-item">
+          <div class="slider-item slide-image">
     
             <!-- Cover -->
             <div class="bg-cover" style="background-image: url(assets/img/66.jpg)"></div>
     
           </div>
-          <div class="slider-item">
+          <div class="slider-item slide-image">
     
             <!-- Cover -->
             <div class="bg-cover" style="background-image: url(assets/img/63.jpg)"></div>
@@ -161,8 +166,9 @@
           <div class="col-12 col-md-8 col-lg-7 order-md-2">
     
             <!-- Slider -->
-            <div id="hero-slider" class="slider slider-no-controls slider-no-draggable slider-fade mb-5 mb-md-0" data-slider-binded=".slider">
-              <div class="slider-item">
+            <div id="hero-slider"  class="carousel slide slider slider-no-controls slider-no-draggable slider-fade mb-5 mb-md-0" data-ride="slick-carousel" data-slider-binded=".slider">
+              <div class="slider-item slide-text">
+
     
                 <!-- Heading -->
                 <h1 class="text-white text-center mb-4">
@@ -176,32 +182,31 @@
     
                 <!-- Button -->
                 <p class="text-center mb-0">
-                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                  <a href="#about" class="btn btn-outline-primary text-white scroll-link">
                     Learn More
                   </a>
                 </p>
-    
               </div>
-              <div class="slider-item">
+              <div class="slider-item slide-text">
                 <!-- Heading -->
                 <h1 class="text-white text-center mb-4">
-                  Personal, fiduciary relationship with our advisors
+                  Personal, fiduciary relationship with our clients
                 </h1>
     
                 <!-- Subheading -->
                 <p class="lead text-white text-muted text-center mb-5">
-                  Access to a network of top professional partners.
+                   We work together with our professional partners to put your interests first.
                 </p>
     
                 <!-- Button -->
                 <p class="text-center mb-0">
-                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                  <a href="#about" class="btn btn-outline-primary text-white">
                     Learn more
                   </a>
                 </p>
     
               </div>
-              <div class="slider-item">
+              <div class="slider-item slide-text">
                 <!-- Heading -->
                 <h1 class="text-white text-center mb-4">
                   Technology driven financial analysis
@@ -214,7 +219,7 @@
     
                 <!-- Button -->
                 <p class="text-center mb-0">
-                  <a href="https://themes.getbootstrap.com/product/incline-landing-page-set/" target="_blank" class="btn btn-outline-primary text-white">
+                  <a href="#about" target="_blank" class="btn btn-outline-primary text-white">
                     Learn more
                   </a>
                 </p>
@@ -260,19 +265,6 @@
       <div class="container" id="about">
         <div class="row justify-content-center">
           <div class="col-md-8 col-lg-12">
-
-            <!-- Heading -->
-            <h2 class="text-center mb-4">
-              Boulevard Wealth Partners
-            </h2>
-
-            <!-- Subheading -->
-
-            <p class="text-muted text-left mb-5">
-              is a Nashville-based asset management firm that designs tailored financial strategies for
-              our clients. We started BWP because we saw too many cases of financial firms looking out for themselves and not the
-              client.
-            </p>
 
         </div>
         </div> <!-- / .row -->
@@ -377,7 +369,7 @@
           </div>
         </div> <!-- / .row -->
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-3">
 
             <!-- Item -->
             <div class="text-center mb-5 mb-md-0">
@@ -389,18 +381,18 @@
 
               <!-- Heading -->
               <h4 class="text-white mb-3">
-                Goals based planning.
+                Clarity
               </h4>
 
               <!-- Content -->
               <p class="text-white text-muted mb-0">
-                Financial strategies that are made only for you.
+                 Plans our clients and their families understand
               </p>
 
             </div>
 
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
 
             <!-- Item -->
             <div class="text-center mb-5 mb-md-0">
@@ -412,40 +404,65 @@
 
               <!-- Heading -->
               <h4 class="text-white mb-3">
-                Investment diversification
+                Purpose
               </h4>
 
               <!-- Content -->
               <p class="text-white text-muted mb-0">
-                Technology driven financial analysis.
+                Financial strategies that align with specific goals
               </p>
 
             </div>
 
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
 
             <!-- Item -->
             <div class="text-center">
           
               <!-- Icon -->
               <div class="text-primary mb-4">
-                <span><i class="fas fa-wallet fa-2x"></i></span>
+                <span><i class="fas fa-user-friends fa-2x"></i></span>
               </div>
 
               <!-- Heading -->
               <h4 class="text-white mb-3">
-                 Risk awareness
+                 Relationship
               </h4>
 
               <!-- Content -->
               <p class="text-white text-muted mb-0">
-                 Experienced professionals keeping your assets safe.
+                 Personal connections with our clients
               </p>
 
             </div>
 
           </div>
+                    <div class="col-md-3">
+                    
+                      <!-- Item -->
+                      <div class="text-center">
+                    
+                        <!-- Icon -->
+                        <div class="text-primary mb-4">
+                          <span>
+                            <i class="fas fa-building fa-2x"></i>
+                          </span>
+                        </div>
+                    
+                        <!-- Heading -->
+                        <h4 class="text-white mb-3">
+                           Community
+                        </h4>
+                    
+                        <!-- Content -->
+                        <p class="text-white text-muted mb-0">
+                          A focus on charitable giving and philanthropy
+                        </p>
+                    
+                      </div>
+                    
+                    </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
 
@@ -453,24 +470,24 @@
 
     <!-- CTA
     ================================================== -->
-    <section class="section bg-light">
+    <!-- <section class="section bg-light">
       <!-- Content -->
         <div class="container">
           <div class="row">
             <div class="col-12">
       
               <!-- Map -->
-              <div class="map">
-                <div class="map-container" data-markers="[[35.943190, -86.807451]]" data-zoom="16"></div>
+              <!-- <div class="map"> -->
+                <!-- <div class="map-container" data-markers="[[36.128209, -86.803815]]" data-zoom="16"></div>
               </div>
       
             </div>
-          </div>
+          </div> -->
           <!-- / .row -->
         </div>
         <!-- / .container -->
       
-      </section>
+      </section> -->
       
       <!-- FORM
           ================================================== -->
@@ -498,11 +515,11 @@
       
               <!-- Subheading -->
               <p class="text-muted mb-5">
-                 Boulevard Partners are here to serve your financial needs. Please contact us and we will be in touch!
+                 Please contact us and we will be in touch!
               </p>
       
               <!-- Form -->
-              <form>
+              <form name="submitEmail" netlify-honeypot="bot-field" netlify>
                 <div class="form-row">
                   <div class="form-group col-md-6">
       
@@ -611,9 +628,8 @@
       
                   <!-- Address -->
                   <p class="text-muted">
-                    1234 Altschul, New York, NY 10027-0000
+                    2323 21st Avenue S Suite 506, Nashville TN, 37212                  
                   </p>
-      
                   <!-- Heading -->
                   <h5>
                     Email:
@@ -621,8 +637,8 @@
       
                   <!-- Address -->
                   <p class="text-muted">
-                    <a href="mailto:admin@domain.com">
-                      admin@domain.com
+                    <a href="mailto:info@boulevardwealthpartners.com">
+                       info@boulevardwealthpartners.com
                     </a>
                   </p>
       
@@ -641,17 +657,6 @@
                     </a>
                   </p>
       
-                  <!-- Heading -->
-                  <h5>
-                    Skype:
-                  </h5>
-      
-                  <!-- Phone -->
-                  <p class="text-muted">
-                    <a href="tel:1234567890">
-                      simpleqode.skype
-                    </a>
-                  </p>
       
                 </div>
               </div>
@@ -753,8 +758,9 @@
     <!-- JAVASCRIPT
     ================================================== -->
     <!-- Global JS -->
+
     <script src="assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnfhr175pigIZK8_mw8w5c9E6xUflfaao"></script>
+
 
     <!-- Plugins JS -->
     <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -762,12 +768,28 @@
     <script src="assets/libs/jquery-parallax.js/parallax.min.js"></script>
     <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="assets/libs/waypoints/lib/shortcuts/inview.min.js"></script>
-    <script src="assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    <!-- <script src="assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script> -->
     <script src="assets/libs/fullpage.js/dist/jquery.fullpage.min.js"></script>
     <script src="assets/libs/highlight.js/highlight.pack.min.js"></script>
+    <!-- Carousel JS library -->
+
 
     <!-- Theme JS -->
     <script src="assets/js/theme.min.js"></script>
+
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script>
+  function transition() {
+    var current = 0,
+      slides = document.getElementsByClassName(".slide-image");
+    setInterval(function () {
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].style.opacity = 0;
+      }
+      current = (current != slides.length - 1) ? current + 1 : 0;
+      slides[current].style.opacity = 1;
+    }, 3000);
+  </script>
 
   </body>
 </html>
