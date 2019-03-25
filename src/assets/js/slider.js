@@ -44,6 +44,22 @@
     } else if ( direction == 'next' ) {
       flkty.next();
     }
+
+    function goToSlide(n) {
+      if ( direction == 'previous' ) {
+        flkty.previous();
+      } else if ( direction == 'next' ) {
+        flkty.next();
+      }
+  }
+
+    function autoNextSlide() {
+      setInterval(goToSlide, 5000);
+    }
+
+    autoNextSlide();
+
+
   }
 
   function bindSliders(elem) {

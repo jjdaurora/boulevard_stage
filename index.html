@@ -24,8 +24,9 @@
     <link rel="stylesheet" href="assets/libs/highlight.js/styles/codepen-embed.min.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css" /> 
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script src="src/assets/js/map.js"></script>
 
-  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBjLjOGdV17Z3abXoZg7DgUGqbXVXG4t0&callback=initMap" type="text/javascript"></script> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBjLjOGdV17Z3abXoZg7DgUGqbXVXG4t0&callback=initMap" type="text/javascript"></script>
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="assets/css/theme.min.css">
@@ -63,15 +64,15 @@
               <a href="#" class="nav-link">
                 <i class="fab fa-linkedin-in"></i> 
                 <span class="d-xl-none ml-2">
-                  Github
+                  LinkedIn
                 </span>
               </a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">
-                <i class="fab fa-twitter"></i> 
+                <i class="fab fa-facebook"></i> 
                 <span class="d-xl-none ml-2">
-                  Twitter
+                  Facebook
                 </span>
               </a>
             </li>
@@ -470,24 +471,23 @@
 
     <!-- CTA
     ================================================== -->
-    <!-- <section class="section bg-light">
+    <section class="section bg-light">
       <!-- Content -->
         <div class="container">
           <div class="row">
-            <div class="col-12">
-      
+            <div class="col-12">   
               <!-- Map -->
-              <!-- <div class="map"> -->
-                <!-- <div class="map-container" data-markers="[[36.128209, -86.803815]]" data-zoom="16"></div>
-              </div>
+                <div class="map"> 
+                  <div class="map-container" data-markers="[[36.128209, -86.803815]]" data-zoom="16"></div>
+               </div>
       
             </div>
-          </div> -->
-          <!-- / .row -->
+          </div> 
+     
         </div>
         <!-- / .container -->
       
-      </section> -->
+      </section> 
       
       <!-- FORM
           ================================================== -->
@@ -771,6 +771,7 @@
     <!-- <script src="assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script> -->
     <script src="assets/libs/fullpage.js/dist/jquery.fullpage.min.js"></script>
     <script src="assets/libs/highlight.js/highlight.pack.min.js"></script>
+
     <!-- Carousel JS library -->
 
 
@@ -778,6 +779,16 @@
     <script src="assets/js/theme.min.js"></script>
 
   <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript">
+
+      var flkty = new Flickity( '.carousel', {
+        autoPlay: 5000,
+      });
+
+      flkty.playPlayer();
+
+      
+  </script>
 
   </body>
 </html>
